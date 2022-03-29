@@ -15,7 +15,7 @@ import com.brandeis.pa1.dao.WorkerDAO;
 import com.brandeis.pa1.entity.TopK;
 import com.brandeis.pa1.entity.Worker;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://databasepa1.s3-website-us-east-1.amazonaws.com")
 @RestController
 public class WorkerController {
 	

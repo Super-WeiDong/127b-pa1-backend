@@ -15,7 +15,7 @@ import com.brandeis.pa1.entity.Sensor;
 import com.brandeis.pa1.entity.SensorRanking;
 import com.brandeis.pa1.entity.SensorUpdate;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://databasepa1.s3-website-us-east-1.amazonaws.com")
 @RestController
 public class SensorController {
 	

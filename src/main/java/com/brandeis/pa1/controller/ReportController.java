@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.brandeis.pa1.dao.ReportDAO;
 import com.brandeis.pa1.entity.Report;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://databasepa1.s3-website-us-east-1.amazonaws.com")
 @RestController
 public class ReportController {
 	@Autowired

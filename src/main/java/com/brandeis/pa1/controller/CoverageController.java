@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.brandeis.pa1.dao.CoverageDAO;
 import com.brandeis.pa1.entity.Coverage;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://databasepa1.s3-website-us-east-1.amazonaws.com")
 @RestController
 public class CoverageController {
 	@Autowired
