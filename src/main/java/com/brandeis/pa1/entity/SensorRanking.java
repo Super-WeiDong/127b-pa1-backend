@@ -19,21 +19,6 @@ public class SensorRanking {
 	private Timestamp last_read;
 	private double energy;
 	
-	public SensorRanking(int sensor_id, int report_number, double x, double y, Timestamp last_charged,
-			String maintainer, Timestamp last_read, double energy) {
-		this.sensor_id = sensor_id;
-		this.report_number = report_number;
-		this.x = x;
-		this.y = y;
-		this.last_charged = last_charged;
-		this.maintainer = maintainer;
-		this.last_read = last_read;
-		this.energy = energy;
-	}
-	
-	public SensorRanking() {
-
-	}
 	public int getSensor_id() {
 		return sensor_id;
 	}
