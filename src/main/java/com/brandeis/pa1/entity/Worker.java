@@ -16,17 +16,6 @@ public class Worker {
 		return ssn;
 	}
 	
-	
-	public Worker() {
-		
-	}
-
-	public Worker(String ssn, String name, int rank, String employing_state) {
-		this.ssn = ssn;
-		this.name = name;
-		this.rank = rank;
-		this.employing_state = employing_state;
-	}
 
 	public void setSsn(String ssn) {
 		this.ssn = ssn;

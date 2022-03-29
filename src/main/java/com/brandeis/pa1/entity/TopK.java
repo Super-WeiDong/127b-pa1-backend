@@ -13,17 +13,6 @@ public class TopK {
 	private String employing_state;
 	private int number_of_sensor;
 	
-	public TopK() {
-		
-	}
-	public TopK(String ssn, String name, int rank, String employing_state, int number_of_sensor) {
-		super();
-		this.ssn = ssn;
-		this.name = name;
-		this.rank = rank;
-		this.employing_state = employing_state;
-		this.number_of_sensor = number_of_sensor;
-	}
 	
 	public String getSsn() {
 		return ssn;

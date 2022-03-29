@@ -12,15 +12,7 @@ public class Coverage {
 	private String state;
 	private double percentage;
 	private double area;
-	public Coverage() {
-	}
-	public Coverage(int forest_no, String state, double percentage, double area) {
-		
-		this.forest_no = forest_no;
-		this.state = state;
-		this.percentage = percentage;
-		this.area = area;
-	}
+	
 	public int getForest_no() {
 		return forest_no;
 	}

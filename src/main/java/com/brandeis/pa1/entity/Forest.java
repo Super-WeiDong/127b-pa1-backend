@@ -18,23 +18,6 @@ public class Forest {
 	private double mbr_ymax;
 	private String state;
 	
-	public Forest() {
-	
-	}
-
-	public Forest(int forest_no, String name, double area, double acid_level, double mbr_xmin, double mbr_xmax,
-			double mbr_ymin, double mbr_ymax, String state) {
-		this.forest_no = forest_no;
-		this.name = name;
-		this.area = area;
-		this.acid_level = acid_level;
-		this.mbr_xmin = mbr_xmin;
-		this.mbr_xmax = mbr_xmax;
-		this.mbr_ymin = mbr_ymin;
-		this.mbr_ymax = mbr_ymax;
-		this.state = state;
-	}
-	
 	public int getForest_no() {
 		return forest_no;
 	}

@@ -18,21 +18,6 @@ public class Sensor {
 	private Timestamp last_read;
 	private double energy;
 	
-	public Sensor() {
-	}
-
-	public Sensor(int sensor_id, double x, double y, Timestamp last_charged, String maintainer, Timestamp last_read,
-			double energy) {
-		super();
-		this.sensor_id = sensor_id;
-		this.x = x;
-		this.y = y;
-		this.last_charged = last_charged;
-		this.maintainer = maintainer;
-		this.last_read = last_read;
-		this.energy = energy;
-	}
-	
 	public int getSensor_id() {
 		return sensor_id;
 	}

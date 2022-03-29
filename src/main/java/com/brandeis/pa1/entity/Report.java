@@ -12,17 +12,6 @@ public class Report {
 	private int sensor_id;
 	private Timestamp report_time;
 	private double temperature;
-	
-	
-	public Report() {
-	}
-
-
-	public Report(int sensor_id, Timestamp report_time, double temperature) {
-		this.sensor_id = sensor_id;
-		this.report_time = report_time;
-		this.temperature = temperature;
-	}
 
 
 	public int getSensor_id() {

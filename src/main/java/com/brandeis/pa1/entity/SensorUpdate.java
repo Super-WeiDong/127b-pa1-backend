@@ -16,18 +16,6 @@ public class SensorUpdate {
 	private double energy;
 	private double temperature;
 	
-	public SensorUpdate() {
-		
-	}
-
-	public SensorUpdate(double x, double y, Timestamp last_charged, double energy, double temperature) {
-		this.x = x;
-		this.y = y;
-		this.last_charged = last_charged;
-		this.energy = energy;
-		this.temperature = temperature;
-	}
-	
 	public double getX() {
 		return x;
 	}
