@@ -63,7 +63,7 @@ public class SensorController {
 		}else if(sDAO.getWorkerByName(b)==null) {
 			// b does not exist, print error message
 			return b + " does not exist";
-		}else if(sDAO.getWorkerByName(a).getEmploying_state()!=sDAO.getWorkerByName(b).getEmploying_state()) {
+		}else if(sDAO.getWorkerByName(a).getEmploying_state().equals(sDAO.getWorkerByName(b).getEmploying_state())) {
 			return "can not swithch! "+ a + " and " + b + " is not in the same state"; 
 		}else {
 			String aState = sDAO.getWorkerByName(a).getEmploying_state();
