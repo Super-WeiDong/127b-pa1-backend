@@ -13,18 +13,6 @@ public class State {
 	private double area;
 	private int population;
 	
-	
-	public State() {
-		super();
-	}
-	public State(String name, String abbreviation, double area, int population) {
-		super();
-		this.name = name;
-		this.abbreviation = abbreviation;
-		this.area = area;
-		this.population = population;
-	}
-	
 	public String getName() {
 		return name;
 	}
